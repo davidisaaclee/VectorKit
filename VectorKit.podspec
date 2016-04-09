@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "VectorKit"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of VectorKit."
+	s.name             = "VectorKit"
+	s.version          = "0.1.0"
+	s.summary          = "Powerful vector operations for the types you're already using."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,14 +17,16 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+VectorKit gives you powerful vector operations for the types you're already using, by providing a Vector
+protocol which can give any type the power to perform vector operations.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/VectorKit"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "David Lee" => "aewofij@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/VectorKit.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+	s.homepage         = "https://github.com/davidisaaclee/VectorKit"
+	# s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+	s.license          = 'MIT'
+	s.author           = { "David Lee" => "david.isaac.lee@gmail.com" }
+	s.source           = { :git => "https://github.com/davidisaaclee/VectorKit.git", :tag => s.version.to_s }
+	# s.social_media_url = 'https://twitter.com/davidisaaclee'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
