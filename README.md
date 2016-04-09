@@ -1,9 +1,9 @@
 # VectorKit
 
 [![CI Status](http://img.shields.io/travis/David Lee/Vector.svg?style=flat)](https://travis-ci.org/David Lee/Vector)
-[![Version](https://img.shields.io/cocoapods/v/Vector.svg?style=flat)](http://cocoapods.org/pods/Vector)
-[![License](https://img.shields.io/cocoapods/l/Vector.svg?style=flat)](http://cocoapods.org/pods/Vector)
-[![Platform](https://img.shields.io/cocoapods/p/Vector.svg?style=flat)](http://cocoapods.org/pods/Vector)
+[![Version](https://img.shields.io/cocoapods/v/Vector.svg?style=flat)](http://cocoapods.org/pods/VectorKit)
+[![License](https://img.shields.io/cocoapods/l/Vector.svg?style=flat)](http://cocoapods.org/pods/VectorKit)
+[![Platform](https://img.shields.io/cocoapods/p/Vector.svg?style=flat)](http://cocoapods.org/pods/VectorKit)
 
 ## Usage
 
@@ -84,4 +84,4 @@ David Lee, http://david-lee.net
 
 ## License
 
-Vector is available under the MIT license. See the LICENSE file for more info.
+VectorKit is available under the MIT license. See the LICENSE file for more info.
