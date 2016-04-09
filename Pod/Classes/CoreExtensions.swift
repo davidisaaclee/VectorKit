@@ -7,10 +7,7 @@ import CoreGraphics
 
 
 extension CGPoint: Vector {
-	public static let additionIdentity: CGPoint = CGPointZero
-	public static let multiplicationIdentity: CGPoint = CGPoint(x: 1, y: 1)
-
-	public var numberOfDimensions: Int { return 2 }
+	public static var numberOfDimensions: Int { return 2 }
 
 	public init<T where T: CollectionType, T.Generator.Element == CGFloat>(collection: T) {
 		var g = collection.generate()
@@ -34,11 +31,8 @@ extension CGPoint: Vector {
 
 extension CGSize: Vector {
 	public typealias Index = Int
-
-	public static let additionIdentity: CGSize = CGSizeZero
-	public static let multiplicationIdentity: CGSize = CGSize(width: 1, height: 1)
-
-	public var numberOfDimensions: Int { return 2 }
+	
+	public static var numberOfDimensions: Int { return 2 }
 
 	public init<T where T: CollectionType, T.Generator.Element == CGFloat>(collection: T) {
 		var g = collection.generate()

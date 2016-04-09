@@ -11,7 +11,7 @@ public protocol Vector: CollectionType, Ring {
 	init<T where T: CollectionType, T.Generator.Element == Self.Generator.Element>(collection: T)
 
 	/// How many dimensions does this vector have?
-	var numberOfDimensions: Int { get }
+	static var numberOfDimensions: Int { get }
 
 	/// The magnitude of the vector.
 	var magnitude: LengthType { get }
@@ -106,7 +106,16 @@ public extension Vector where Self.Index == Int {
 	}
 
 	public var endIndex: Int {
-		return self.numberOfDimensions
+		return self.dynamicType.numberOfDimensions
+	}
+}
+
+public extension Vector where Self.Generator.Element: Ring {
+	public static var additionIdentity: Self {
+		return Self(collection: Array(count: Self.numberOfDimensions, repeatedValue: Self.Generator.Element.additionIdentity))
+	}
+	public static var multiplicationIdentity: Self {
+		return Self(collection: Array(count: Self.numberOfDimensions, repeatedValue: Self.Generator.Element.multiplicationIdentity))
 	}
 }
 

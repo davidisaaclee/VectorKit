@@ -41,10 +41,7 @@ public final class CustomVector2 {
 extension CustomVector2: Vector {
 	public typealias Index = Int
 
-	public static let additionIdentity: CustomVector2 = CustomVector2(collection: [0, 0])
-	public static let multiplicationIdentity: CustomVector2 = CustomVector2(collection: [1, 1])
-
-	public var numberOfDimensions: Int { return 2 }
+	public static var numberOfDimensions: Int { return 2 }
 
 	public subscript(index: Int) -> Float {
 		switch index {
@@ -84,10 +81,7 @@ public struct CustomVector3 {
 extension CustomVector3: Vector {
 	public typealias Index = Int
 
-	public static let additionIdentity: CustomVector3 = CustomVector3(collection: [0, 0, 0])
-	public static let multiplicationIdentity: CustomVector3 = CustomVector3(collection: [1, 1, 1])
-
-	public var numberOfDimensions: Int { return 3 }
+	public static var numberOfDimensions: Int { return 3 }
 
 	public subscript(index: Int) -> Float {
 		switch index {
