@@ -30,7 +30,6 @@ extension CGPoint: Vector {
 			fatalError()
 		}
 	}
-
 }
 
 extension CGSize: Vector {
