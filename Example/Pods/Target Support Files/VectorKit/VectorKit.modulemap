@@ -1,0 +1,6 @@
+framework module VectorKit {
+  umbrella header "VectorKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
