@@ -1,9 +1,6 @@
-# VectorKit
+**This library is deprecated. Please use [VectorSwift](https://github.com/davidisaaclee/VectorSwift) instead.**
 
-[![CI Status](http://img.shields.io/travis/David Lee/Vector.svg?style=flat)](https://travis-ci.org/David Lee/Vector)
-[![Version](https://img.shields.io/cocoapods/v/Vector.svg?style=flat)](http://cocoapods.org/pods/VectorKit)
-[![License](https://img.shields.io/cocoapods/l/Vector.svg?style=flat)](http://cocoapods.org/pods/VectorKit)
-[![Platform](https://img.shields.io/cocoapods/p/Vector.svg?style=flat)](http://cocoapods.org/pods/VectorKit)
+# VectorKit
 
 ## Usage
 
