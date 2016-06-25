@@ -1,5 +1,7 @@
 **This library is deprecated. Please use [VectorSwift](https://github.com/davidisaaclee/VectorSwift) instead.**
 
+It turns out Apple has an undocumented, private framework called `VectorKit`, which will cause issues if used with this library. [VectorSwift](https://github.com/davidisaaclee/VectorSwift) is the renamed replacement for `VectorKit`. All future development will be on VectorSwift.
+
 # VectorKit
 
 ## Usage
